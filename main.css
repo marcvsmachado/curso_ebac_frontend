@@ -1,0 +1,100 @@
+/* Reset básico e definição de box-sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+body > header {
+    background-color: #2f9e3c;
+    padding: 16px 0;
+    color: #ffffff;
+}
+
+/* Estilos para o container do cabeçalho */
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Estilos para os itens da lista de navegação */
+header li {
+    display: inline;
+}
+
+/* Estilos para os links do cabeçalho */
+header li a {
+    color: #6c47ef;
+}
+
+/* Estilos para o container principal */
+.container {
+    width: 90%; /* Ajuste da largura para responsividade */
+    margin: 0 auto;
+}
+
+/* Estilos para a seção de artigos */
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Estilos para as imagens dos artigos */
+.articles article img {
+    height: 180px;
+    width: 100%;
+}
+
+/* Estilos para os artigos */
+.articles article {
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Estilos para o texto dos artigos */
+.articles article p {
+    text-align: justify;
+}
+
+/* Estilos para seções */
+section#Tecnologia {
+    padding: 16px 0;
+    background-color: #f0f8ff; /* AliceBlue */
+    margin-top: 20px;
+}
+
+section#Política {
+    padding: 16px 0;
+    background-color: #ffebcd; /* BlanchedAlmond */
+    margin-top: 20px;
+}
+
+section#Opinião Pública {
+    padding: 16px 0;
+    background-color: #e6e6fa; /* Lavender */
+    margin-top: 20px;
+}
+
+section#Carnaval Seguro {
+    padding: 16px 0;
+    background-color: #fafad2; /* LightGoldenRodYellow */
+    margin-top: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
